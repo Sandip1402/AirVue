@@ -1,0 +1,36 @@
+#content{
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("earth.jpg");
+    background-size: cover;
+}
+
+#view{
+    margin: 40px 0px;
+    text-align: center;
+}
+#view > * {
+    margin: 10px 0px;
+}
+
+#view h1{
+    color: rgba(0,0,0,0.6);
+}
+#view button{
+    font-size: 1.5rem;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    background: none;
+    border: 2px black solid;
+    /* border */
+}
+
+#view button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}

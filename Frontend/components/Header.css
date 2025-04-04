@@ -1,0 +1,20 @@
+#logo{
+    margin: 0 auto;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img{
+    background-size: contain;
+    width: 250px;
+    height: 220px;
+    
+}
+
+h1{
+    color: rgba(21,7,1, 0.8);
+}

@@ -1,0 +1,44 @@
+#footer{
+    display: flex;
+    padding: 40px 60px;
+    justify-content: space-around;
+    background-color: rgba(197, 197, 197, 0.8);
+}
+
+
+span{
+    font-size: 1.4rem;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+#socials{
+    font-size: 1.4rem;
+}
+#socials ul{
+    margin: 8px 0px;
+    display: flex;
+}
+#socials ul li {
+    margin: 0px 5px;
+}
+
+#links{
+    font-size: 1.08rem;
+}
+#links ul li{
+    margin: 5px;
+}
+#links ul li a{
+    color: black;
+}
+
+
+#about{
+    width: 400px;
+    height: fit-content;
+}
